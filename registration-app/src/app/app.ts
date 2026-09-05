@@ -30,7 +30,7 @@ export class App {
     this.errorMessage = '';
 
     this.http.post(
-      'http://localhost:3000/api/register',
+      'https://advances-pub-implemented-investment.trycloudflare.com/api/register',
       this.user
     ).subscribe({
 
