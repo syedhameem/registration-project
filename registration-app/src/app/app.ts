@@ -30,7 +30,7 @@ export class App {
     this.errorMessage = '';
 
     this.http.post(
-      'https://device-extreme-balance-vid.trycloudflare.com',
+      'https://device-extreme-balance-vid.trycloudflare.com/api/register',
       this.user
     ).subscribe({
 
